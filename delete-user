@@ -1,1 +1,1 @@
-echo "⚠️  THIS USER WILL BE DELETED. If you're sure, enter the ID below."; read -p "Enter the User ID: " ID && wp user delete "$ID" --allow-root
+echo " ####---- ⚠️  THIS USER WILL BE DELETED. If you're sure, enter the ID below. ---####"; /n read -p "Enter the User ID: " ID && wp user delete "$ID" --allow-root
